@@ -1,5 +1,4 @@
 <?php
-//error_reporting(0);
 global $wpdb;
 $posts = $wpdb->get_results("select * from $wpdb->posts");
 foreach($posts as $p){
