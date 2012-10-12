@@ -20,3 +20,5 @@ this is how i use it. put this on crontab (crontab -e)
 0 0  * * * /usr/bin/wp --path=/var/www/videoseram.com eval-file /home/weldan/sources/videoseram-cli/remove-dead-posts.php
 
 if you run logwatch you could see if there is any dead video on posts removed, executed 12 am everyday. 
+
+on post content i only put video id, so this is all you have to modify to fit your requirement, any way you want. 
